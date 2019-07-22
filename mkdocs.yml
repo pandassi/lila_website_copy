@@ -1,0 +1,68 @@
+## Préambule
+site_name: Lila Website
+site_description: Un site sur quelque chose.
+site_author: Lila Architecture
+copyright: copyright Lila #cc 
+repo_name: GitHub 
+
+theme:
+  name: readthedocs #bootstrap4 #mkdocs # Le même thème qu'en ligne
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+
+
+##Architecture
+nav:
+  - Accueil: index.md
+  - Pense-bête: pense_bete.md
+
+## Extensions
+markdown_extensions:
+  # documentées et décrites ici:
+  # https://www.mkdocs.org/user-guide/writing-your-docs/
+  # https://www.markdownguide.org/extended-syntax#strikethrough
+  # https://python-markdown.github.io/extensions/
+  #
+  # Definition lists: glossaires de définitions
+  - def_list
+  # blocs de code source dans le texte
+  - fenced_code
+  # notes en bas de page
+  - footnotes
+  # tableaux encadrés
+  - tables
+  # boites colorés pour notes, astuce, avertissements...
+  - admonition 
+  # new line to break: point+enter = nouvelle ligne
+  - nl2br
+  # amélioration des listes à puces et numérotées
+  - sane_lists
+  # smarty: amélioration du rendu de la ponctuation ' "  «  ... -- ---
+  - smarty
+  # table of contents: table des matières
+  # permalink: pour créer des liens interne
+  # baselevel: nombre de paliers (# ## ### ####...)
+  - toc:
+      permalink: true
+      baselevel: 3
+  #
+  # documentées et décrites ici:
+  # https://github.com/Python-Markdown/markdown/wiki/Third-Party-Extensions
+  # pour le LaTeX avec le lien plus haut dans
+  # extra_javascript
+  - pymdownx.arithmatex
+  # emoticons
+  - pymdownx.emoji
+  # nouveaux symboles +/-  -->  <--  <-->  =/=  1/4  1st 2nd
+  - pymdownx.smartsymbols
+  # amélioratoin des listes
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+  # ~~ ~~: raturer
+  - pymdownx.tilde
+  # == ==: surligner
+  - pymdownx.mark
+
+
+## Site de base
