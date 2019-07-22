@@ -16,7 +16,8 @@ extra_javascript:
 ##Architecture
 nav:
   - Accueil: index.md
-  - Pense-bête: pense_bete.md
+  - Guide:
+    - Pense-bête: pense_bete.md
 
 ## Extensions
 markdown_extensions:
