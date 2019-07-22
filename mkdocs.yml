@@ -6,7 +6,8 @@ copyright: copyright Lila #cc
 repo_name: GitHub 
 
 theme:
-  name: readthedocs #bootstrap4 #mkdocs # Le même thème qu'en ligne
+  name:  readthedocs #bootstrap4 #mkdocs # Le même thème qu'en ligne
+  favicon: 'favicon.ico'
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
