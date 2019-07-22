@@ -1,0 +1,23 @@
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+
+## Extensions
+markdown_extensions:
+  - fenced_code
+  - footnotes
+  - tables
+  - admonition 
+  - nl2br
+  - sane_lists
+  - smarty
+  - toc:
+      permalink: true
+      anchorlink: false
+      baselevel: 3
+  - pymdownx.arithmatex
+  - pymdownx.emoji
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+  - pymdownx.tilde
