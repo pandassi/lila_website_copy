@@ -4,7 +4,8 @@
 
 **Git**
 
-![](img/git-cheat-sheet.png)
+![](../img/git-cheat-sheet.png)
+![](../img/Git-Cheat-Sheet-by-RebelLabs.png)
 
 - Test changement
 
